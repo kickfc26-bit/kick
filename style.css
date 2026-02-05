@@ -10,13 +10,13 @@ html {
 }
 
 body {
-    font-family: 'Pretendard', sans-serif;
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Emoji', sans-serif;
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
     font-weight: 100;
     font-display: swap;
     background-color: #0b0b0b;
     color: #e0e0e0;
-    line-height: 1.8;
+    line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -143,7 +143,7 @@ section {
 .greeting-section {
     background: #000;
     /*padding-top: 70px;*/
-    padding: 140px 80px;
+    padding: 140px 70px;
 }
 
 .section-content {
@@ -473,6 +473,7 @@ section {
     font-weight: 600;
     color: #ffffff;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 
 /* ===== 후원 섹션 ===== */
@@ -519,6 +520,7 @@ section {
     font-size: 24px;
     font-weight: 600;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .btn-copy {
